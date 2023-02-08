@@ -1,0 +1,116 @@
+/* resert */
+/* estilos de header de  home*/
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: hsl(271, 17%, 76%);
+    width: auto;
+    height: 100px;
+    clear: both;
+    position: sticky;
+}
+.div{
+    background-color: blueviolet;
+    margin: 15px 400px;
+    border-radius: 100px;
+}
+h1{
+    text-align: center;
+}
+
+header nav ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 40px;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left:50px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*estilo de main del home*/
+
+    body{
+         background-color: rgb(148, 142, 142);
+
+}
+
+main p{
+    text-transform: arial;
+    font-size: 19px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    font-style:normal;
+    font-size:x-large; 
+}
+h4{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    font-style:normal;
+    font-size:x-large;
+}
+h5{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-style: italic;
+
+}
+
+.cuerpo__párrafo{
+    background-color: aliceblue;
+    font-style: italic;
+    line-height: normal;
+    width: 650px;
+    height: 350px ;
+    overflow:scroll;
+    position:absolute;
+    left: 620px;
+    top: 200px;
+}
+main div div{
+    display:inline-block;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom:60px;
+}
+/*estilo de footer del home*/
+
+footer{
+    text-align: right;
+    background-size:contain;
+}
+h6{
+    font-style: italic;
+    line-height: normal 
+}
+
+/* estilos de main de  banco planificaciones*/
+
+.form{
+  font-size: x-large;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
