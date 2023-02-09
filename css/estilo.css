@@ -95,6 +95,12 @@ main div div{
     margin-left: 70px;
     margin-top: 20px;
     margin-bottom:60px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40% 40% 20%;
+}
+
+.img-uno ; img-dos ; img-tres{
+    display:inline-flex;
 }
 /*estilo de footer del home*/
 
