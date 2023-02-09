@@ -7,25 +7,26 @@
 }
 
 header{
-    background-color: hsl(271, 17%, 76%);
+    background-color: hsl(300, 4%, 5%);
     width: auto;
     height: 100px;
     clear: both;
     position: sticky;
 }
 .div{
-    background-color: blueviolet;
+    background-color: rgb(137, 131, 143);
     margin: 15px 400px;
     border-radius: 100px;
 }
 h1{
     text-align: center;
+    color: azure;
 }
 
 header nav ul{
     list-style: none;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 header nav ul li{
     display: inline-block;
@@ -33,13 +34,13 @@ header nav ul li{
 }
 header nav ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(236, 227, 227);
 }
 
 /*estilo de main del home*/
 
     body{
-         background-color: rgb(148, 142, 142);
+         background-color: rgb(119, 114, 114);
 
 }
 
@@ -99,7 +100,7 @@ main div div{
     grid-template-rows: 40% 40% 20%;
 }
 
-.img-uno ; img-dos ; img-tres{
+.img-uno{
     display:inline-flex;
 }
 /*estilo de footer del home*/
