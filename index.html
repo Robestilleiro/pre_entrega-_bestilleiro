@@ -19,21 +19,43 @@
       <div class="div">
           <h1>Banco Docente- C.A.B.A</h1>
     </div> 
-   <nav><ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="pages/infodocente.html"> Infodocente</a></li>
-    <li><a href="pages/herramientas.html"> Herramientas digitales</a></li>
-    <li><a href="pages/bancoplani.html"> Banco de planficaciones</a></li>
-    <li><a href="pages/contacto.html"> Contacto</a></li>
-    </ul>  </nav>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page/in" href="pages/infodocente.html">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/herramientas.html">Herramientas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/bancoplani.html">Planificaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </a>
+          <li class="nav-item">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 </header>
 
  <main class="conteiner-fluid bg-main">
 
-<div class="div">
-          <h2>Notidocente</h2></div> 
-
-    <h3>Incripción en linea</h3>
+<h3>Incripción en linea</h3>
 
 <div class="cuerpo">
        <div class="cuerpo__video"><iframe class="cuerpo__video" width="560" height="315" src="https://www.youtube.com/embed/2IX5KPNvbFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
@@ -42,7 +64,7 @@
 
 <h4>Acceso directo</h4>
 <div class="row">
-  <div class="card" style="width: 20rem;">
+  <div class="card my-2 col-md-6lg-3" style="width: 20rem;">
     <img src="img/descarga.jpg" class="card-img-top" alt="clasificación">
     <div class="card-body">
       <h5 class="Clasificación">Card title</h5>
@@ -50,7 +72,7 @@
       <a href="https://clasificaciondocente.buenosaires.gob.ar/"  target="_blank">Accede</a>
     </div>
   </div>
-  <div class="card" style="width: 20rem;">
+  <div class="card my-2 col-md-6lg-3" style="width: 20rem;">
     <img src="img/mi portal.jpg" class="card-img-top" alt="mi portal">
     <div class="card-body">
       <h5 class="Clasificación">Mi portal</h5>
@@ -59,7 +81,7 @@
     </div>
   </div>
    
-  <div class="card" style="width: 20rem;">
+  <div class="card my-2 col-md-6lg-3" style="width: 20rem;">
     <img src="img/mi escuela.jpg" class="card-img-top" alt="mi escuela">
     <div class="card-body">
       <h5 class="Clasificación">Mi portal</h5>
