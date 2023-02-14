@@ -1,4 +1,5 @@
 /* resert */
+
 /* estilos de header de  home*/
 *{
     margin:0%;
@@ -8,15 +9,17 @@
 
 header{
     background-color: hsl(300, 4%, 5%);
-    width: auto;
+    width: 100%;
     height: 100px;
     clear: both;
     position: sticky;
+    display: inline-block ;
 }
 .div{
     background-color: rgb(137, 131, 143);
     margin: 15px 400px;
     border-radius: 100px;
+    width: 100%;
 }
 h1{
     text-align: center;
