@@ -130,3 +130,9 @@ h6{
   margin-top: 30px;
   margin-bottom: 30px;
 }
+/* mq de table*/
+@media screen (min-width: 480 px;)
+    main { grid-template-columns: (2 , 1 fr;);
+        grid-row: auto;}
+  
+    
