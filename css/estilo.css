@@ -107,8 +107,10 @@ main div div{
     grid-template-rows: 40% 40% 20%;
 }
 
-.img-uno{
-    display:inline-flex;
+.class card {
+    grid-template-columns: 1 fr;
+    grid-template-rows: auto;
+
 }
 /*estilo de footer del home*/
 
