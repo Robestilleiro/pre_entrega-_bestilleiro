@@ -131,8 +131,11 @@ h6{
   margin-bottom: 30px;
 }
 /* mq de table*/
-@media screen (min-width: 320 px;)
-    main { grid-template-columns: (3 , 1 fr;);
-        grid-row: auto;}
+@media screen  and (min-width:480px) and (max-width:767px)
+ {
+    body{
+        background-color: brown;}
+}
+    
   
     
