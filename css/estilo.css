@@ -107,11 +107,6 @@ main div div{
     grid-template-rows: 40% 40% 20%;
 }
 
-.class card {
-    grid-template-columns: 1 fr;
-    grid-template-rows: auto;
-
-}
 /*estilo de footer del home*/
 
 footer{
@@ -131,11 +126,31 @@ h6{
   margin-bottom: 30px;
 }
 /* mq de table*/
-@media screen  and (min-width:480px) and (max-width:767px)
- {
-    body{
-        background-color: brown;}
+@media screen  and (min-width:600px) {
+    main{
+        grid-template-columns:repeat(2, 1fr) ;
+        grid-template-rows:auto ;
+    }
 }
-    
+
   
-    
+  /* mq de table*/
+@media screen  and (min-width:480px) {
+    main{
+        grid-template-columns:repeat(2, 1fr) ;
+        grid-template-rows:auto ; }
+
+   body{grid-template-columns:repeat(2, 1fr) ;
+            grid-template-rows:auto ;
+        }
+    }
+
+header{
+    grid-row: auto;
+}
+
+
+
+.class-card{
+    grid: row span 2px;
+}  
