@@ -9,7 +9,7 @@
 
 header{
     background-color: hsl(300, 4%, 5%);
-    width: auto;
+    max-width: auto;
     height: auto;
     clear: both;
     position: sticky;
@@ -19,7 +19,7 @@ header{
     background-color: rgb(137, 131, 143);
     margin: 15px 400px;
     border-radius: 100px;
-    width: auto;
+    max-width: auto;
     height: auto;
     object-fit:cover;
     display: grid;
@@ -88,15 +88,15 @@ h5{
 }
 
 .cuerpo__párrafo{
-    background-color: aliceblue;
-    font-style: italic;
-    line-height: normal;
-    width: 650px;
-    height: 350px ;
-    overflow:scroll;
-    position:absolute;
-    left: 620px;
-    top: 200px;
+        background-color: aliceblue;
+        font-style: italic;
+        line-height: normal;
+        max-width: 650px;
+        height: 350px;
+        overflow: scroll;
+        position: absolute;
+        left: 620px;
+        top: 200px;
 }
 main div div{
     display:inline-block;
@@ -112,6 +112,7 @@ main div div{
 footer{
     text-align: right;
     background-size:contain;
+    max-width: auto ;
 }
 h6{
     font-style: italic;
