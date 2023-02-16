@@ -17,11 +17,11 @@ header{
 }
 .div{
     background-color: rgb(137, 131, 143);
-    margin: 15px 400px;
+    margin: 15px;
     border-radius: 100px;
-    max-width: auto;
+    width: auto;
     height: auto;
-    object-fit:cover;
+    object-fit: cover;
     display: grid;
 }
 
