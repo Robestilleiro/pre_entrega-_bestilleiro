@@ -9,21 +9,33 @@
 
 header{
     background-color: hsl(300, 4%, 5%);
-    max-width: auto;
-    height: auto;
+    width:fit-content;
+    height:fit-content;
     clear: both;
-    position: sticky;
+    position:-webkit-sticky;
     display: grid;
 }
 .div{
     background-color: rgb(137, 131, 143);
     margin: 15px;
-    border-radius: 100px;
-    width: auto;
+    border-radius: 15px;
+    width:  auto;
     height: auto;
     object-fit: cover;
     display: grid;
 }
+
+.texto__párrafo{
+    background-color: aliceblue;
+    font-style: italic;
+    line-height: normal;
+    width: fit-content;
+    height: fit-content;
+    overflow: scroll;
+    text-align: center;
+    position: relative;
+}
+
 
 h1{
     text-align: center;
@@ -33,11 +45,11 @@ h1{
 header nav ul{
     list-style: none;
     text-align: center;
-    margin-top: 20px;
+    margin-top:20px;
 }
 header nav ul li{
     display: inline-block;
-    margin-left:50px;
+    margin-left:20px;
 }
 header nav ul li a{
     text-decoration: none;
@@ -87,19 +99,9 @@ h5{
 
 }
 
-.cuerpo__párrafo{
-        background-color: aliceblue;
-        font-style: italic;
-        line-height: normal;
-        max-width: 650px;
-        height: 350px;
-        overflow: scroll;
-        position: absolute;
-        left: 620px;
-        top: 200px;
-}
+    
 main div div{
-    display:inline-block;
+    display:flex;
     margin-left: 70px;
     margin-top: 20px;
     margin-bottom:60px;
@@ -112,14 +114,16 @@ main div div{
 footer{
     text-align: right;
     background-size:contain;
-    max-width: auto ;
+    max-width: 100%;
 }
 h6{
     font-style: italic;
     line-height: normal 
 }
 
-/* estilos de main de  banco planificaciones*/
+/* estilos de infodocente */
+
+/* estilos de main de contacto */
 
 .form{
   font-size: x-large;
@@ -127,31 +131,22 @@ h6{
   margin-bottom: 30px;
 }
 /* mq de table*/
-@media screen  and (min-width:600px) {
+@media screen  and (max-width:600px) {
     main{
-        grid-template-columns:repeat(2, 1fr) ;
+        grid-template-columns:repeat(2, 2fr) ;
         grid-template-rows:auto ;
     }
 }
 
   
-  /* mq de table*/
-@media screen  and (min-width:480px) {
-    main{
-        grid-template-columns:repeat(2, 1fr) ;
-        grid-template-rows:auto ; }
-
-   body{grid-template-columns:repeat(2, 1fr) ;
-            grid-template-rows:auto ;
-        }
-    }
-
-header{
-    grid-row: auto;
+  /* mq de celular*/
+@media screen  and (max-width:480px) {
+    main {
+    grid-template-columns:repeat(2,  2fr) ;
+    grid-template-rows:auto;
+}
 }
 
 
 
-.class-card{
-    grid: row span 2px;
-}  
+
