@@ -12,7 +12,7 @@ header{
     width:fit-content;
     height:fit-content;
     clear: both;
-    position:-webkit-sticky;
+    position:relative;
     display: grid;
 }
 .div{
