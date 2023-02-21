@@ -14,6 +14,7 @@ header{
     clear: both;
     display: grid;
 }
+
 .div{
     background-color: rgb(137, 131, 143);
     margin: 15px;
@@ -31,8 +32,7 @@ header{
     width: fit-content;
     height: fit-content;
     overflow: scroll;
-    text-align: center;
-    position: relative;
+  text-align: center;
 }
 
 
@@ -69,7 +69,6 @@ main p{
     line-height: 50px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    position: relative;
   }
   
 h2{
