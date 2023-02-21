@@ -13,6 +13,7 @@ header{
     height:fit-content;
     clear: both;
     display: grid;
+    position:sticky;
 }
 
 .div{
@@ -100,7 +101,7 @@ h5{
 
     
 main div div{
-    display:flex;
+    display:inline-flex;
     margin-left: 70px;
     margin-top: 20px;
     margin-bottom:60px;
