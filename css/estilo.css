@@ -9,8 +9,6 @@
 
 header{
     background-color: hsl(300, 4%, 5%);
-    height:fit-content;
-    clear: both;
     display:grid;
 }
 
