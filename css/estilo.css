@@ -70,6 +70,7 @@ main p{
     line-height: 50px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    position: relative;
   }
   
 h2{
