@@ -9,7 +9,6 @@
 
 header{
     background-color: hsl(300, 4%, 5%);
-    width:fit-content;
     height:fit-content;
     clear: both;
     display:grid;
