@@ -12,7 +12,6 @@ header{
     width:fit-content;
     height:fit-content;
     clear: both;
-    position:relative;
     display: grid;
 }
 .div{
