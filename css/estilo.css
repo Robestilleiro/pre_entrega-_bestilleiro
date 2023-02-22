@@ -1,6 +1,6 @@
 /* resert */
 
-/* estilos de header de  home*/
+/* estilos de index home*/
 *{
     margin:0%;
     padding:0%;
@@ -32,6 +32,10 @@ header{
   text-align: center;
 }
 
+.cuerpo__video {
+    width: 80%; 
+    height: 70%;
+}
 
 h1{
     text-align: center;
@@ -132,6 +136,7 @@ h6{
         grid-template-columns:repeat(2, 2fr) ;
         grid-template-rows:auto ;
     }
+    iframe {width: 60%; height: 50% ;}
 }
 
   
