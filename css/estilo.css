@@ -32,9 +32,9 @@ header{
   text-align: center;
 }
 
-.cuerpo__video {
-    width: 120%; 
-    height: 330%;
+div.cuerpo__video {
+    width:  80%; 
+    height: 75%;
 }
 
 h1{
@@ -136,7 +136,8 @@ h6{
         grid-template-columns:repeat(2, 2fr) ;
         grid-template-rows:auto ;
     }
-    .cuerpo__video {width: 60%; height: 50% ;}
+    .cuerpo__video {width: 70%; height: 50% ;}
+    .row{width: auto; height: auto;}
 }
 
   
