@@ -121,7 +121,13 @@ h6{
     line-height: normal 
 }
 
-/* estilos de infodocente */
+/* estilos de herramientas */
+div.herramientas{
+    display:inline-flex;
+}
+div.diseño{
+    display:inline-flex;
+}
 
 /* estilos de main de contacto */
 
