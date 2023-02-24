@@ -128,7 +128,10 @@ div.herramientas{
 div.diseño{
     display:inline-flex;
 }
-
+/* estilos de banco plani*/
+.carpeta{
+    display:inline-flex;
+}
 /* estilos de main de contacto */
 
 .form{
