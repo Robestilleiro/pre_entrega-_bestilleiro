@@ -32,8 +32,8 @@ header{
   text-align: center;
 }
 
-div.cuerpo__video {
-    width:  60%; 
+div.cuerpo__video{
+    width:  320%; 
     height: 75%;
 }
 
