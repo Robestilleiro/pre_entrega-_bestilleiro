@@ -132,6 +132,9 @@ div.diseño{
 .carpeta{
     display:inline-flex;
 }
+.imagenes{
+    display:inline-flex;
+}
 /* estilos de main de contacto */
 
 .form{
