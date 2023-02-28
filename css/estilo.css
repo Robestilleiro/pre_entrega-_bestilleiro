@@ -111,11 +111,6 @@ main div div{
 
 
 
-.container {
- grid-template-columns: repeat(2, 2 fr);
- display:inline-flex;
-}
-
 .centrar {
     display: flex !important;
     justify-content: center;
