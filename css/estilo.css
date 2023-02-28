@@ -109,6 +109,10 @@ main div div{
     grid-template-rows: 40% 40% 20%;
 }
 
+.row-card {
+    color: black;
+}
+
 .targetas {
  grid-template-columns: repeat(2, 2 fr);
  display:inline-flex;
