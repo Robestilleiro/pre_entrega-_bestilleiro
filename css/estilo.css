@@ -109,10 +109,6 @@ main div div{
     grid-template-rows: 40% 40% 20%;
 }
 
-.card-body{
-    justify-content: center;
-}
-
 /*estilo de footer del home*/
 
 footer{
