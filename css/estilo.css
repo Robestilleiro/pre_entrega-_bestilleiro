@@ -8,7 +8,7 @@
 }
 
 header{
-    background-color: hsl(300, 4%, 5%);
+    background-color: hsl(300, 6%, 75%);
 }
 
 .div{
@@ -58,7 +58,7 @@ header nav ul li a{
 /*estilo de main del home*/
 
     body{
-         background-color: rgb(119, 114, 114);
+         background-color: rgb(14, 13, 13);
 
 }
 
@@ -69,12 +69,14 @@ main p{
     line-height: 50px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    color: aliceblue;
   }
   
 h2{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: aliceblue;
 }
 h3{
     text-align: left;
@@ -82,6 +84,7 @@ h3{
     margin-bottom: 20px;  
     font-style:normal;
     font-size:x-large; 
+    color: aliceblue;
 }
 h4{
     text-align: left;
@@ -89,7 +92,8 @@ h4{
     margin-bottom: 20px;  
     font-style:italic;
     font-size:x-large;
-    background-color: black;
+    background-color: rgb(102, 100, 100);
+    color: aliceblue;
 }
 h5{
     text-align: center;
@@ -109,6 +113,11 @@ main div div{
     grid-template-rows: 40% 40% 20%;
 }
 
+.targetas {
+ grid-template-columns: repeat(3, 2 fr);
+ display: contents;
+}
+
 /*estilo de footer del home*/
 
 footer{
@@ -119,6 +128,17 @@ footer{
 h6{
     font-style: italic;
     line-height: normal 
+}
+/* estilos de infodocente */
+.imagenes
+ {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50% 50% 30%;
+    display:flex;
+}
+
+.botones {
+    display:inline-block;
 }
 
 /* estilos de herramientas */
