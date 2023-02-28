@@ -114,6 +114,11 @@ main div div{
  display:inline-flex;
 }
 
+.centrar {
+    display: flex;
+    justify-content: center;
+    }
+
 /*estilo de footer del home*/
 
 footer{
