@@ -110,8 +110,8 @@ main div div{
 }
 
 .targetas {
- grid-template-columns: repeat(3, 2 fr);
- display: contents;
+ grid-template-columns: repeat(2, 2 fr);
+ display:inline-flex;
 }
 
 /*estilo de footer del home*/
