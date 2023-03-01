@@ -116,6 +116,10 @@ main div div{
     justify-content: center;
     }
 
+.padreCards{
+margin: 0;
+}
+
 /*estilo de footer del home*/
 
 footer{
