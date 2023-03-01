@@ -141,11 +141,10 @@ max-height: 100%;
 
 
 
-.botones {
-    display:flex;
+.botones{
+    grid-template-columns: (3, 1fr);
+ grid-template-rows: 40% 40% 20%;
     justify-content:center;
-    margin-top: 5%;
-    margin-left: 5%;
 }
 
 /* estilos de herramientas */
