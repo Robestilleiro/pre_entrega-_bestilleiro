@@ -166,7 +166,7 @@ div.diseño{
         grid-template-columns:repeat(2, 2fr) ;
         grid-template-rows:auto ;
     }
-    .cuerpo__video {width: 70%; height: 50% ;}
+    .iframe {width: 70%; height: 50% ;}
     .div_row{width: 50%; height: 50%;}
 }
 
