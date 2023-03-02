@@ -144,8 +144,9 @@ max-height: 100%;
 }
 
 /* estilos de herramientas */
-div.herramientas{
-    display:inline-flex;
+
+.herramientas{
+    display: flex !important;
 }
 div.diseño{
     display:inline-flex;
