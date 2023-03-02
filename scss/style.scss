@@ -54,20 +54,22 @@ header{
 /*estilo de main del home*/
 
 body{
-    background-color: rgb(14, 13, 13);
-  main p{
+    background-color: rgb(14, 13, 13);}
+
+  main {
+     p{
 text-transform: arial;
 font-size: 19px;
 letter-spacing: 2px;
 line-height: 50px;
 text-align: center;
 font-family: 'Roboto', sans-serif;
-color: aliceblue;
-
-main div div{
+color: aliceblue;}
+div div{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 40% 40% 20%;
     }
+}
  .centrar {
     display: flex !important;
     justify-content: center;
@@ -75,8 +77,8 @@ main div div{
  .padreCards{
     margin: 0;
     }
-}
-}
+
+
 
 h2{
 text-align: center;
