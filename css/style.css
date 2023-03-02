@@ -1,13 +1,20 @@
 @charset "UTF-8";
+/*estilo de main del home*/
+/*estilo de footer del home*/
+/* estilos de infodocente */
+/* estilos de herramientas */
+/* estilos de banco plani*/
+/* estilos de main de contacto */
+/* mq de table*/
+/* mq de celular*/
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
 
-/*estilos de index*/
 header {
-  background-color: hsl(300, 4%, 59%);
+  background-color: hsl(300, 6%, 75%);
 }
 header nav ul {
   list-style: none;
@@ -18,7 +25,7 @@ header nav ul li {
   display: inline-block;
   margin-left: 20px;
 }
-header nav ul a {
+header nav ul li a {
   text-decoration: none;
   color: rgb(236, 227, 227);
 }
@@ -32,7 +39,8 @@ header nav ul a {
   object-fit: cover;
   display: grid;
 }
-.div .texto__párrafo {
+
+.texto__párrafo {
   background-color: aliceblue;
   font-style: italic;
   line-height: normal;
@@ -47,7 +55,6 @@ h1 {
   color: azure;
 }
 
-/*estilo de main del home*/
 body {
   background-color: rgb(14, 13, 13);
 }
@@ -64,15 +71,6 @@ main p {
 main div div {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 40% 40% 20%;
-}
-
-.centrar {
-  display: flex !important;
-  justify-content: center;
-}
-
-.padreCards {
-  margin: 0;
 }
 
 h2 {
@@ -108,16 +106,46 @@ h5 {
   font-style: italic;
 }
 
-/* estilos de herramientas */
-div.herramientas {
-  display: inline-flex;
+.centrar {
+  display: flex !important;
+  justify-content: center;
+}
+
+.padreCards {
+  margin: 0;
+}
+
+footer {
+  text-align: right;
+  background-size: contain;
+  max-width: 100%;
+}
+
+h6 {
+  font-style: italic;
+  line-height: normal;
+}
+
+.foto {
+  display: flex !important;
+  justify-content: center;
+  max-height: 100%;
+}
+
+.botones {
+  grid-template-columns: 3, 1fr;
+  grid-template-rows: 40% 40% 20%;
+  justify-content: center;
+}
+
+.herramientas {
+  display: flex !important;
 }
 
 div.diseño {
   display: inline-flex;
 }
 
-/* estilos de banco plani*/
 .carpeta {
   display: inline-flex;
 }
@@ -126,14 +154,12 @@ div.diseño {
   display: inline-flex;
 }
 
-/* estilos de main de contacto */
 .form {
   font-size: x-large;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-/* mq de table*/
 @media screen and (max-width: 600px) {
   main {
     grid-template-columns: repeat(2, 2fr);
@@ -148,7 +174,6 @@ div.diseño {
     height: 50%;
   }
 }
-/* mq de celular*/
 @media screen and (max-width: 480px) {
   main {
     grid-template-columns: repeat(2, 2fr);
