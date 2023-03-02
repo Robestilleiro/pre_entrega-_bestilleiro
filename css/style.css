@@ -1,0 +1,154 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/*estilos de index*/
+header {
+  background-color: hsl(300, 6%, 75%);
+}
+header nav ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+header nav ul a {
+  text-decoration: none;
+  color: rgb(236, 227, 227);
+}
+
+.div {
+  background-color: rgb(137, 131, 143);
+  margin: 15px;
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  display: grid;
+}
+.div .texto__párrafo {
+  background-color: aliceblue;
+  font-style: italic;
+  line-height: normal;
+  width: fit-content;
+  height: fit-content;
+  overflow: scroll;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: azure;
+}
+
+/*estilo de main del home*/
+body {
+  background-color: rgb(14, 13, 13);
+}
+body main p {
+  text-transform: arial;
+  font-size: 19px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+}
+body main p main div div {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 40% 40% 20%;
+}
+body main p .centrar {
+  display: flex !important;
+  justify-content: center;
+}
+body main p .padreCards {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+h3 {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-size: x-large;
+  color: aliceblue;
+}
+
+h4 {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: x-large;
+  background-color: rgb(102, 100, 100);
+  color: aliceblue;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* estilos de herramientas */
+div.herramientas {
+  display: inline-flex;
+}
+
+div.diseño {
+  display: inline-flex;
+}
+
+/* estilos de banco plani*/
+.carpeta {
+  display: inline-flex;
+}
+
+.imagenes {
+  display: inline-flex;
+}
+
+/* estilos de main de contacto */
+.form {
+  font-size: x-large;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* mq de table*/
+@media screen and (max-width: 600px) {
+  main {
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: auto;
+  }
+  .iframe {
+    width: 70%;
+    height: 50%;
+  }
+  .div_row {
+    width: 50%;
+    height: 50%;
+  }
+}
+/* mq de celular*/
+@media screen and (max-width: 480px) {
+  main {
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: auto;
+  }
+}/*# sourceMappingURL=style.css.map */

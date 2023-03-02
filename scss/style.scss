@@ -108,7 +108,46 @@ margin-top: 20px;
 margin-bottom: 20px; 
 font-style: italic;}
 
+/* estilos de herramientas */
+div.herramientas{
+    display:inline-flex;
+}
+div.diseño{
+    display:inline-flex;
+}
+/* estilos de banco plani*/
+.carpeta{
+    display:inline-flex;
+}
+.imagenes{
+    display:inline-flex;
+}
+/* estilos de main de contacto */
+
+.form{
+  font-size: x-large;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* mq de table*/
+@media screen  and (max-width:600px) {
+    main{
+        grid-template-columns:repeat(2, 2fr) ;
+        grid-template-rows:auto ;
+    }
+    .iframe {width: 70%; height: 50% ;}
+    .div_row{width: 50%; height: 50%;}
+}
+
+  
+  /* mq de celular*/
+@media screen  and (max-width:480px) {
+    main {
+    grid-template-columns:repeat(2,  2fr) ;
+    grid-template-rows:auto;
+}
+}
 
 
 
-    @import 'mobile';
+
