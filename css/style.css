@@ -7,7 +7,7 @@
 
 /*estilos de index*/
 header {
-  background-color: hsl(300, 6%, 75%);
+  background-color: hsl(300, 4%, 59%);
 }
 header nav ul {
   list-style: none;
@@ -51,7 +51,8 @@ h1 {
 body {
   background-color: rgb(14, 13, 13);
 }
-body main p {
+
+main p {
   text-transform: arial;
   font-size: 19px;
   letter-spacing: 2px;
@@ -60,15 +61,17 @@ body main p {
   font-family: "Roboto", sans-serif;
   color: aliceblue;
 }
-body main p main div div {
+main div div {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 40% 40% 20%;
 }
-body main p .centrar {
+
+.centrar {
   display: flex !important;
   justify-content: center;
 }
-body main p .padreCards {
+
+.padreCards {
   margin: 0;
 }
 
