@@ -4,6 +4,8 @@
 	padding: 0%;
 	box-sizing: border-box;
 }
+@import "html/herramientas";
+
 header {
 	background-color: hsl(300, 6%, 75%);
 	nav {
@@ -135,6 +137,10 @@ div.diseño {
 	font-size: x-large;
 	margin-top: 30px;
 	margin-bottom: 30px;
+
+.footer{
+	margin: top 20px;;
+}
 }
 @media screen and (max-width:600px) {
 	main {
