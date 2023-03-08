@@ -9,4 +9,8 @@
     h1{
         color: nth($list:$colores 3)
 }
+.botones{
+    color: nth($list:colors 4 );
+
+}
 }
