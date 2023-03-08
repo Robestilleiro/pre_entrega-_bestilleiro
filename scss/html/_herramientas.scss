@@ -14,3 +14,14 @@
 
 }
 }
+
+.main-herramientas{
+    @include flex;
+  background-color:$color-principal;
+
+}
+
+@mixin flexx {
+    display: flex;
+    align-items: center;
+}
