@@ -1,4 +1,3 @@
-
 * {
 	margin: 0%;
 	padding: 0%;
@@ -161,4 +160,17 @@ div.diseño {
 		grid-template-columns: repeat(2, 2fr);
 		grid-template-rows: auto;
 	}
+}
+@media(min-width: 769px) and (max-width: 1200px){
+
+}
+
+/* Widescreen */
+@media(min-width: 1201px){
+
+}
+
+/* Landscape */
+@media(max-height: 500px){
+
 }
