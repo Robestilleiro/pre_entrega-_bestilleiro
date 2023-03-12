@@ -120,8 +120,8 @@ h6 {
 	grid-template-rows: 40% 40% 20%;
 	justify-content: center;
 }
-.herramientas {
-	display: flex !important;
+.div_herramientas {
+	display: inline-flex;
 }
 div.diseño {
 	display: inline-flex;
