@@ -120,15 +120,13 @@ h6 {
 	grid-template-rows: 40% 40% 20%;
 	justify-content: center;
 }
-.div_herramientas {
-	display: inline-flex;
+.cardgroup{
+	display:flex !important;
 }
 div.diseño {
 	display: inline-flex;
 }
-.carpeta {
-	display: inline-flex;
-}
+
 .imagenes {
 	display: inline-flex;
 }
